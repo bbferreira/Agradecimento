@@ -75,14 +75,14 @@ span:hover{
     width: 100%;
     height: 100%;
     display: flex;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .pc{
     width: 100%;
     height: 600px;
-    margin-right: 100%;
-}
+    }
 
 @media (max-width:1300px){
     .agradecimento{
@@ -107,10 +107,13 @@ span:hover{
 
 @media (max-width:448px){
     .botao{
-        margin-right: -10px;
+        margin-left: 30px;
+        
+        
     }
     h1{
-     font-size:40px ;
+     font-size:40px;
+     text-align: left;
     }
 }
 @media (max-width:300px){
